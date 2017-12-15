@@ -16,8 +16,11 @@ class LIBNOISEUE_API UTutorial : public UBlueprintFunctionLibrary
 
 public:
 	UFUNCTION(BlueprintCallable)
-		static void LibNoiseCreateTerrainHeightMapGrayscale();
+		static void CreateTerrainHeightMapGrayscale();
 
 	UFUNCTION(BlueprintCallable)
-		static void LibNoiseCreateSphericalPlanetaryTerrain();
+		static void CreateSphericalPlanetaryTerrain();
+
+	UFUNCTION(BlueprintCallable)
+		static void CreateComplexPlanet();
 };
