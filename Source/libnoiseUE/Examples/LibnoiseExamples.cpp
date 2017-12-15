@@ -1,4 +1,4 @@
-#include "Tutorial.h"
+#include "LibnoiseExamples.h"
 
 #include <fstream>
 
@@ -11,7 +11,7 @@ using namespace noise;
 // http://libnoise.sourceforge.net/examples/textures/index.html
 // https://github.com/eXpl0it3r/libnoise/tree/master/examples
 
-void UTutorial::CreateTerrainHeightMapGrayscale()
+void ULibnoiseExamples::CreateTerrainHeightMapGrayscale()
 {
 	int Width(1024), Height(1024);
 	module::Perlin PerlinNoise;
@@ -38,7 +38,7 @@ void UTutorial::CreateTerrainHeightMapGrayscale()
 	Writer.WriteDestFile();
 }
 
-void UTutorial::CreateSphericalPlanetaryTerrain()
+void ULibnoiseExamples::CreateSphericalPlanetaryTerrain()
 {
 	int Width(16192), Height(16192);
 	module::Perlin PerlinNoise;
@@ -77,7 +77,7 @@ void UTutorial::CreateSphericalPlanetaryTerrain()
 	Writer.WriteDestFile();
 }
 
-void UTutorial::CreateComplexPlanet()
+void ULibnoiseExamples::CreateComplexPlanet()
 {
 	////////////////////////////////////////////////////////////////////////////
 	// Constants
@@ -1972,7 +1972,7 @@ void UTutorial::CreateComplexPlanet()
 
 #include "TextureSky.h"
 
-void UTutorial::CreateCloudsOverWater()
+void ULibnoiseExamples::CreateCloudsOverWater()
 {
 	// This texture map is made up two layers.  The bottom layer is a wavy water
 	// texture.  The top layer is a cloud texture.  These two layers are

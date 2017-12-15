@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "Tutorial.generated.h"
+#include "LibnoiseExamples.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class LIBNOISEUE_API UTutorial : public UBlueprintFunctionLibrary
+class LIBNOISEUE_API ULibnoiseExamples : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 
