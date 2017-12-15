@@ -23,4 +23,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		static void CreateComplexPlanet();
+
+	UFUNCTION(BlueprintCallable)
+		static void CreateCloudsOverWater();
 };
